@@ -1,10 +1,18 @@
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  -- Set theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "onedark_vivid",
     },
+  },
+
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+
+  -- add one dark pro
+  { "navarasu/onedark.nvim" },
+  {
+    "olimorris/onedarkpro.nvim",
   },
 }
